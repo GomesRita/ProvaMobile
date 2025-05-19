@@ -5,31 +5,31 @@ export default function App() {
   return (
     <ScrollView>
       <View style={styles.container}>
-          <Text styles={styles.titulo}>Divertidamente 2</Text>
-          <Text styles={styles.text}>Diretor: Kelsey Mann</Text>
-          <Text styles={styles.text}>Gênero: Animação </Text>
-          <Text styles={styles.text}>Ano:  2024</Text>
+          <Text style={styles.titulo}>Divertidamente 2</Text>
+          <Text style={styles.text}>Diretor: Kelsey Mann</Text>
+          <Text style={styles.text}>Gênero: Animação </Text>
+          <Text style={styles.text}>Ano:  2024</Text>
           <Image style={styles.image} source={require('./assets/divertidamente.jpg')} ></Image>
       </View>
       <View style={styles.container}>
-          <Text styles={styles.titulo}>Wish: o Poder dos Desejos</Text>
-          <Text styles={styles.text}>Diretor: Chris Buck, Fawn Veerasunthorn </Text>
-          <Text styles={styles.text}>Gênero: Animação </Text>
-          <Text styles={styles.text}>Ano:  2023</Text>
+          <Text style={styles.titulo}>Wish: o Poder dos Desejos</Text>
+          <Text style={styles.text}>Diretor: Chris Buck, Fawn Veerasunthorn </Text>
+          <Text style={styles.text}>Gênero: Animação </Text>
+          <Text style={styles.text}>Ano:  2023</Text>
           <Image style={styles.image} source={require('./assets/wish.jpeg')} ></Image>
       </View>
       <View style={styles.container}>
-          <Text styles={styles.titulo}>Elementos</Text>
-          <Text styles={styles.text}>Diretor: Peter Sohn</Text>
-          <Text styles={styles.text}>Gênero: Animação </Text>
-          <Text styles={styles.text}>Ano:  2023</Text>
+          <Text style={styles.titulo}>Elementos</Text>
+          <Text style={styles.text}>Diretor: Peter Sohn</Text>
+          <Text style={styles.text}>Gênero: Animação </Text>
+          <Text style={styles.text}>Ano:  2023</Text>
           <Image style={styles.image} source={require('./assets/elementos.jpeg')} ></Image>
       </View>
       <View style={styles.container}>
-          <Text styles={styles.titulo}>A pequena sereia</Text>
-          <Text styles={styles.text}>Diretor: Rob Marshall</Text>
-          <Text styles={styles.text}>Gênero: Animação </Text>
-          <Text styles={styles.text}>Ano:  2023</Text>
+          <Text style={styles.titulo}>A pequena sereia</Text>
+          <Text style={styles.text}>Diretor: Rob Marshall</Text>
+          <Text style={styles.text}>Gênero: Animação </Text>
+          <Text style={styles.text}>Ano:  2023</Text>
           <Image style={styles.image} source={require('./assets/pequena.jpeg')} ></Image>
       </View>
     </ScrollView>
@@ -63,5 +63,5 @@ const styles = StyleSheet.create({
     fontStyle: 'italic',
     marginBottom: 5
   }
-
+  
 });
